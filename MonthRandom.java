@@ -11,7 +11,7 @@ package javaapplication1;
  */
 public class MonthRandom {
     public static void main(String[] args){
-    int monthRandom = (int) (Math.random() * 12);
+    int monthRandom = (int) (Math.random() * 13);
     switch (monthRandom){
         case 1: System.out.println("January");break;
         case 2: System.out.println("February");break;
